@@ -5,24 +5,29 @@ A lightweight Flask API allows users to query recommendations by providing a tit
 
 Repository Layout 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+├── .gitignore 
+
+├── README.md
 
 ├── app.py                      # Flask API entry point
-
-├── requirements.txt            # Dependencies for running the app
-
-├── netflix_titles.csv          # Original Netflix dataset
-
-|── netflix_clean.csv           # Intermediate cleaned version
-
-├── netflix_cleaned.csv         # Further cleaned version
-
-├── netflix_cleaned_fixed.csv   # Final cleaned version
 
 ├── clean_data.py               # Initial data cleaning script|
 
 ├── clean_data_fixed.py         # Final cleaning adjustments
 
+├── df_for_recommender.csv
+
 ├── load_dataset.py             # Loads and prepares data
+
+├── netflix_clean.csv           # Intermediate cleaned version
+
+├── netflix_cleaned.csv         # Further cleaned version
+
+├── netflix_cleaned_fixed.csv   # Final cleaned version
+
+├── netflix_titles.csv          # Original Netflix dataset
+
+├── requirements.txt            # Dependencies for running the app
 
 └── train_recommender.py        # Generates similarity matrix (not included in repo)
 
