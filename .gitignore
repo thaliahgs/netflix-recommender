@@ -1,0 +1,18 @@
+# Ignore big model files
+models/similarity.pkl
+models/*.pkl
+
+# Ignore datasets
+data/*.csv
+
+# Ignore virtual environment folders
+venv/
+env/
+.myenv/
+
+# Ignore VSCode settings
+.vscode/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
